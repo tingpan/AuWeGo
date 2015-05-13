@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <meta charset="utf-8" />
+  <title>AUWeGo</title>
+  <link type="text/css" rel="stylesheet" href="index.css"/>
+  <script type="text/javascript" src="phaser.min.js"></script>
+  <script type="text/javascript" src="volumeController.js"></script>
+  <script type="text/javascript" src="choose.js"></script>
+  <script type="text/javascript" src="load.js"></script>
+  <script type="text/javascript" src="menu.js"></script>
+  <script type="text/javascript" src="play-normal.js"></script>
+  <script type="text/javascript" src="play-hard.js"></script>
+  <script type="text/javascript" src="play-extreme.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+  <script type="text/javascript" src="scoreManager.js"></script>
+  <script type="text/javascript" src="jq.js"></script>
+
+
+</head>
+
+<body>
+  <div id="Layer1" style="position:absolute; left:0px; top:50px; width:1920px; height:600px; overflow: hidden;z-index:1">
+    <div align="center">
+      <embed src="assets/leaf.swf" width="1920px" height="1080px" wmode="transparent"/>
+    </div>
+  </div>
+
+  <div id="Layer2" style="position:absolute; left:0px; top:200px; width:1900px; height:700px; overflow: hidden;z-index:1;">
+    <div align="center">
+      <embed src="assets/stars.swf" width="1920px" height="1080px" wmode="transparent"/>
+    </div>
+  </div>
+
+<div id="top"></div>
+  <div id="game_div"> </div>
+  <div id="controlBar">
+      <div id="bgm" class="control"><img onclick="bgmController(this);" src="assets/bgmon.png"/></div>
+      <div id="se" class="control"><img onclick="seController(this);" src="assets/seon.png"/></div>
+  </div>
+</body>
+
+</html>

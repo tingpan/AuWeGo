@@ -1,0 +1,67 @@
+body{
+  margin: 0px;
+  background-color: yellowgreen;
+  background-image: url(assets/indexbg.jpg);
+}
+#game_div, p , #controlBar{
+      width: 1270px;
+      margin-left: 325px;
+      margin-top: 60px;
+      position: relative;
+      border-radius: 30px;
+      z-index: 2
+}
+
+#game_div{
+   height: 710px;
+
+}
+
+#Layer4 {
+color: white;
+}
+
+#top{
+width: 1920px;
+height: 60px;
+background-color: #303030;
+border-bottom: 5px solid #cccccc;
+background-image: url(assets/topBar.jpg);
+
+}
+
+#controlBar{
+    margin-top: 10px;
+    z-index: 3;
+}
+
+
+.control{
+  height: 60px;
+  width: 60px;
+  opacity: 0.5;
+}
+
+.control:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.control>img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#bgm{    
+  position: absolute;
+  top: -715px;
+  left: 1020px;  
+}
+
+#se{
+  position: absolute;
+  top: -715px;
+  left:1080px;  
+}
+
